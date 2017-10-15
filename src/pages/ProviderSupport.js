@@ -1,13 +1,13 @@
 import React from 'react';
 
-class Team extends React.Component {
+class ProviderSupport extends React.Component {
   constructor() {
     super();
     this.state = { someKey: 'someValue' };
   }
 
   render() {
-    return <p>Team</p>;
+    return <p>ProviderSupport</p>;
   }
 
   componentDidMount() {
@@ -15,4 +15,4 @@ class Team extends React.Component {
   }
 }
 
-export default Team;
+export default ProviderSupport;

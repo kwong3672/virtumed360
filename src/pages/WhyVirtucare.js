@@ -1,13 +1,13 @@
 import React from 'react';
 
-class Team extends React.Component {
+class WhyVirtucare extends React.Component {
   constructor() {
     super();
     this.state = { someKey: 'someValue' };
   }
 
   render() {
-    return <p>Team</p>;
+    return <p>WhyVirtucare</p>;
   }
 
   componentDidMount() {
@@ -15,4 +15,4 @@ class Team extends React.Component {
   }
 }
 
-export default Team;
+export default WhyVirtucare;

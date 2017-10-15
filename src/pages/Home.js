@@ -9,7 +9,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <p>{this.state.someKey}</p>
+        <p>Home Page</p>
       </div>
     );
   }

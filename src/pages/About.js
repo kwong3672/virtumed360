@@ -7,7 +7,7 @@ class About extends React.Component {
   }
 
   render() {
-    return <p>{this.state.someKey}</p>;
+    return <p>about page</p>;
   }
 
   componentDidMount() {
