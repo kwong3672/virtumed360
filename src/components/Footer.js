@@ -1,15 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Col, Grid, Row} from 'react-bootstrap';
-import FontAwesome from 'react-fontawesome';
-// import { Icon } from 'react-font-awesome';
 import './Footer.css';
 
 class Footer extends React.Component {
-  constructor() {
-    super();
-    this.state = { someKey: 'someValue' };
-  }
 
   render() {
     return (
@@ -26,9 +20,6 @@ class Footer extends React.Component {
     )
   }
 
-  componentDidMount() {
-    this.setState({ someKey: 'otherValue' });
-  }
 }
 
 export default Footer;

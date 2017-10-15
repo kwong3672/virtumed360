@@ -4,7 +4,7 @@ import ReactHtmlParser from 'react-html-parser';
 import { Col, Grid, Jumbotron, Row, Thumbnail } from 'react-bootstrap';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/css/bootstrap-theme.css';
+// import 'bootstrap/dist/css/bootstrap-theme.css';
 import './Home.css';
 import BgImg from '../assets/earth-earth-at-night-night-lights-41949.jpeg';
 

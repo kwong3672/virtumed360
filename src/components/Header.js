@@ -5,14 +5,6 @@ import { IndexLinkContainer } from 'react-router-bootstrap';
 import './Header.css';
 
 class Header extends React.Component {
-  constructor() {
-    super();
-    this.state = { activePage: 1 };
-  }
-
-  handleSelect(selectedKey) {
-    this.setState({activePage: selectedKey})
-  }
 
   render() {
     return (
@@ -44,10 +36,6 @@ class Header extends React.Component {
 
     );
   }
-
-  componentDidMount() {
-    this.setState({ someKey: 'otherValue' });
-  }
 }
 
 export default Header;
@@ -63,6 +51,7 @@ const styles = {
     borderRadius: 0,
     color: 'rgba(255, 255, 255, 1)',
     padding: '3px 0',
+    zIndex: 100,
   },
   brand: {
     backgroundColor: 'rgba(31, 144, 105, 1)',
